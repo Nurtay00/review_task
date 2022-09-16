@@ -1,0 +1,43 @@
+#h1_tag{
+
+}
+
+.h2_tag{
+
+}
+
+.font{
+    margin-top: 1200px;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-decoration: line-through;
+    background-color: aquamarine;
+    /*background: url("img.png");*/
+    /*background-size:contain;*/
+    /*background-repeat: no-repeat;*/
+}
+
+p{
+    background: yellow;
+}
+
+.flex{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.grid{
+    width: 600px;
+    display: grid;
+    grid-template-rows: 200px 100px;
+    grid-template-columns: 1fr 1fr 2fr 3fr;
+    text-align: center;
+    grid-gap: 20px;
+
+}
+
+.item{
+    background: red;
+}
